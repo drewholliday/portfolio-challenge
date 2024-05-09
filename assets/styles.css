@@ -5,22 +5,47 @@ header {
     background-color: aqua;
 }
 
+.picOfDrew {
+    size: 50px;
+}
+
 nav {
     display: flex ;
-    flex-direction: row;
+    justify-content: stretch;
 }
 
 .navLinks {
     display: flex;
-    flex-direction: row;
-    justify-content: 
-    
-    
+    flex-direction: column;
+    justify-content: center;
+}
+
+#aboutMe {
+    margin: 50px;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+}
+
+#work {
+    margin: 50px;
+}
+
+.card {
+    margin: 100px;
+    border-radius: 20px;
+    border: red;
+    display: flex;
+    justify-content: flex-start;
+
 }
 
 #contactMe {
+    margin: 50px;
     display: flex;
-    align-self: center;
+    justify-content: center;
 }
 
 .contactList {
