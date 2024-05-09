@@ -1,0 +1,30 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: aqua;
+}
+
+nav {
+    display: flex ;
+    flex-direction: row;
+}
+
+.navLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: 
+    
+    
+}
+
+#contactMe {
+    display: flex;
+    align-self: center;
+}
+
+.contactList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
