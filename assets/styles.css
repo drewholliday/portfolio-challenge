@@ -4,6 +4,9 @@ header {
     justify-content: space-between;
     background-color: aqua;
 }
+body {
+    background-color: antiquewhite;
+}
 
 .picOfDrew {
     size: 50px;
@@ -22,6 +25,7 @@ nav {
 
 #aboutMe {
     margin: 50px;
+    background-color: aqua;
 }
 
 p {
@@ -31,6 +35,9 @@ p {
 
 #work {
     margin: 50px;
+    background-color: aqua;
+    border-color: black;
+    border-radius: 20px;
 }
 
 .card {
@@ -46,10 +53,16 @@ p {
     margin: 50px;
     display: flex;
     justify-content: center;
+    background-color: aqua;
 }
 
 .contactList {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.bigProject img{
+    width: 1000px;
+    height: auto;
 }
